@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Design by Elaine Wah, last modified 2016 */
+
+body {
+	padding: 0;
+	margin: 50px 1.5em 0 1.5em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1em;
+	font-size-adjust: 0.5;
+	color: #333333;
+}
+
+#header {
+	margin-bottom: 1em;
+}
+
+/* MENU */
+#menu { display: none; }
+
+.dropbutton {
+	text-align: center;
+	background-color: white;
+	margin-left: 0;
+	padding: 0.85em 0 0.5em 0.5em;
+	width: 3em;
+	font-size: 1em;
+	color: #333333;
+	border: none;
+}
+.dropbutton:hover {
+	cursor: pointer;
+	color: #999999;
+}
+
+.mobilemenu {
+	vertical-align: text-top;
+	float: left;
+	margin-top: 1em;
+	position: relative;
+	margin-right: auto;
+	display: inline;
+}
+.mobilemenu-content {
+	display: none;
+	position: absolute;
+	text-decoration: none;
+	font-size: 0.875em;
+	font-size-adjust: 0.5;
+	min-width: 5em;
+	margin-left: 0.25em;
+}
+.mobilemenu-content ul {
+	list-style: none;
+	left: 0;
+}
+.mobilemenu-content a {
+	background-color: white;
+	color: #333333;
+	min-width: 5em;
+	padding: 1em;
+	text-decoration: none;
+	display: inline-block;
+}
+.mobilemenu-content a:hover {
+	cursor: pointer;
+	color: #999999;
+}
+
+.mobilemenu:hover .mobilemenu-content {
+	cursor: pointer;
+	display: inline;
+}
+
+.mobilemenu a {
+	padding: 0.5em;
+	text-decoration: none;
+	text-shadow: none;
+	font-size: 1.2em;
+	font-size-adjust: 0.5;
+	color: #000000;
+}
+
+#headshot img {
+	width: 50%;
+	height: auto;
+	margin-top: 0.5em;
+}
+
+#pdf embed {
+	max-width: 480px;
+	height: 520px;
+}
