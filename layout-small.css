@@ -7,7 +7,7 @@ body {
 	padding: 0;
 	margin: 50px 1.5em 0 1.5em;
 	font-family: 'Source Sans Pro', sans-serif;
-	src: url('/fonts/SourceSansPro-Regular.ttf') format('truetype');
+	src: url('../www/fonts/SourceSansPro-Regular.ttf') format('truetype');
 	font-size: 1em;
 	font-size-adjust: 0.5;
 	color: #333333;
