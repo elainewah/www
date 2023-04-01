@@ -1,12 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* Design by Elaine Wah, last modified 2016 */
+/* Design by Elaine Wah, last modified 2023 */
 
 body {
 	padding: 0;
 	margin: 50px 1.5em 0 1.5em;
 	font-family: 'Source Sans Pro', sans-serif;
+	src: url('/fonts/SourceSansPro-Regular.ttf') format('truetype');
 	font-size: 1em;
 	font-size-adjust: 0.5;
 	color: #333333;
